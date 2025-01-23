@@ -21,7 +21,7 @@ const AddProd = () => {
   return (
     <div style={{margin:'5%',marginTop:'10%',textAlign:'center'}}>
         <Grid >
-    <Typography variant='h4' style={{color:'gray',fontWeight:'bold'}}>ADD NEW PRODUCT</Typography> <br />
+    <Typography variant='h4' style={{color:'gray',fontWeight:'bold'}}>ADD A NEW PRODUCT</Typography> <br />
   <Grid >
    <TextField label='Title' variant='outlined' fullWidth onChange={(e)=>{
     setprodData({...prodData, title:e.target.value})}}></TextField>
